@@ -89,7 +89,7 @@
 					<h4 class="degree">
 						<a target="_blank">Graduação em Análise e Desenvolvimento De Sistemas</a>
 						<h5 class="meta">Faculdade de Tecnologia Bandeirantes - BandTec</h5>
-						<div class="time">07/2015 - 06/2018</div>
+						<div class="time">Formação em 06/2018</div>
 				</div>
 
 				<div class="item">
@@ -158,9 +158,9 @@
 					</p>
 				</div>
 			</section>
-			<!-- Fim do container de apresentação / Resumo do CV -->
+			<!-- Fim do bloco de apresentação / Resumo do CV -->
 
-			<!-- Container do bloco de trabalhos - carreira profissional  -->
+			<!-- Iniicio do bloco de trabalhos - carreira profissional  -->
 			<section class="section experiences-section">
 				<!-- Titutlo do bloco-->
 				<h2 class="section-title"><span class="icon-holder"><i class="far fa-building"></i></span>Experiência
@@ -314,13 +314,10 @@
 			</section>
 			<!--fim do bloco de trabalhos - carreira profissional -->
 
-			<!-- Inicio do containder de projetos -->
+			<!-- Inicio do containder de projetos acadêmicos -->
 			<section class="section projects-section">
 				<h2 class="section-title"><span class="icon-holder"><i class="fas fa-balance-scale"></i></span>Projetos
 					Acadêmicos </h2>
-				<div class="intro" align="justify">
-					<p>Para visualizar a descrição completa dos projetos, basta clicar sobre seu nome</p>
-				</div>
 
 				<div class="b5-light-grey b5-section" style="width: 100%" align="justify">
 					<button onclick="myFunction('Demo2')" class="b5-button b5-block">Serviços de emergência</button>
@@ -425,7 +422,13 @@
 						</p>
 					</div>
 				</div>
+			</section>
+			<!-- Fim do containder de projetos -->
 
+			<!-- Inicio do bloco de projetos pessoais -->
+			<section class="section projects-section">
+				<h2 class="section-title"><span class="icon-holder"><i class="fas fa-desktop"></i></span>Projetos
+					Pessoais - sistemas </h2>
 				<div class="b5-light-grey b5-section" style="width: 100%" align="justify">
 					<button onclick="myFunction('Demo5')" class="b5-button b5-block">[Em construção]</button>
 					<div id="Demo5" class="b5-hide b5-container">
@@ -465,19 +468,23 @@
 							</div>
 							</br>
 						</figure>
-						<script>
-							function myFunction(id) {
-								var x = document.getElementById(id);
-								if (x.className.indexOf("b5-show") == -1) {
-									x.className += " b5-show";
-								} else {
-									x.className = x.className.replace(" b5-show", "");
-								}
-							}
-						</script>
+					</div>
 			</section>
-			<!-- Fim do containder de projetos -->
 
+			<!-- script de validação do box -->
+			<script>
+				function myFunction(id) {
+					var x = document.getElementById(id);
+					if (x.className.indexOf("b5-show") == -1) {
+						x.className += " b5-show";
+					} else {
+						x.className = x.className.replace(" b5-show", "");
+					}
+				}
+			</script>
+			<!-- Fim do script de validação do box -->
+
+			<!-- Inicio do bloco de Hackathon -->
 			<section class="section summary-section">
 				<h2 class="section-title">
 					<span class="icon-holder"><i class="fas fa-award"></i></span>Hackathon</h2>
@@ -520,8 +527,10 @@
 						</br>
 					</div>
 			</section>
+			<!-- Fim do bloco de Hackathon -->
 
-			<!-- Inicío  do bloco de cursos e paltestras-->
+
+			<!-- Inicío  do bloco de cursos -->
 			<section class="section summary-section">
 				<h2 class="section-title">
 					<span class="icon-holder"><i class="fas fa-code"></i></span>Cursos Técnicos em TI</h2>
@@ -679,6 +688,7 @@
 						</div>
 					</div>
 			</section>
+			<!-- Fim do bloco de cursos -->
 
 			<section class="section summary-section">
 				<h2 class="section-title">
