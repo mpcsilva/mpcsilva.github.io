@@ -28,6 +28,10 @@
 	<!-- CSS bloco de hacks e meetups -->
 	<link id="stylesheet" href="assets/icss/boxImg.css">
 
+	<!-- caroussel -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -45,7 +49,8 @@
 			<div class="contact-container container-block">
 				<ul class="list-unstyled contact-list">
 					<h2 class="container-block-title">Dados pessoais</h2>
-					<li class="address"><i class="fas fa-male"></i><a target="_blank">Brasileiro. Solteiro. 23 anos.<a /></li>
+					<li class="address"><i class="fas fa-male"></i><a target="_blank">Brasileiro. Solteiro. 23
+						anos.<a /></li>
 						<li class="address"><i class="far fa-id-card"></i><a target="_blank">Habilitação AB<a /></li>
 						</ul>
 					</div>
@@ -152,17 +157,13 @@
 										<section class="section summary-section">
 											<h2 class="section-title"><span class="icon-holder"><i class="fas fa-user"></i></span>Apresentação</h2>
 											<div class="summary" align="justify">
-												<p>Programação na linguagem Java para o desenvolvimento de sistemas web. Estilização de páginas em
-													HTML, CSS, Bootstrap e manipulação de dados em JavaScript. Banco de Dados PL/SQL, controle de
-												versão Git/GitHub.</p>
+												<p>Programação na linguagem Java para o desenvolvimento de sistemas web. Estilização de páginas em HTML, CSS, Bootstrap e manipulação de dados em JavaScript. Banco de Dados PL/SQL, controle de versão Git/GitHub.</p>
 
 												<p>Conhecimento e suporte a sistemas operacionais Windows 07, 10 e Linux. Pacote Office
 												(principalmente excel). Virtualização de sistemas operacionais.</p>
 
 												<p>Participante ativo de Hackathons (competições de programação) com objetivo de
-													auxiliar e desenvolver junto ao time técnico, soluções e produtos variados. Proporcionar a
-													redução de
-													custos, inovações tecnológicas, processos e soluções sustentáveis para resolução de problemas.
+													auxiliar e desenvolver junto ao time técnico, soluções e produtos variados. Proporcionar a redução de custos, inovações tecnológicas, processos e soluções sustentáveis para resolução de problemas.
 												</p>
 											</div>
 										</section>
@@ -171,8 +172,7 @@
 										<!-- Iniicio do bloco de trabalhos - carreira profissional  -->
 										<section class="section experiences-section">
 											<!-- Titutlo do bloco-->
-											<h2 class="section-title"><span class="icon-holder"><i class="far fa-building"></i></span>Experiência
-											Profissional</h2>
+											<h2 class="section-title"><span class="icon-holder"><i class="far fa-building"></i></span>Experiência	Profissional</h2>
 
 											<!-- Inicio do item de trabalho -->
 											<div class="item">
@@ -186,11 +186,16 @@
 													<div class="company">Analista de Sistemas Jr</div>
 													<!-- Descrição das atividades -->
 													<div class="details" align="justify">
-														<p>Responsável por prestar auxílio e suporte aos usuários da empresa, fornecer orientações sobre a utilização de equipamentos, gerenciando acessos, configuração e ajustes de perfil.</p>
+														<p>Responsável por prestar auxílio e suporte aos usuários da empresa, fornecer orientações
+															sobre a utilização de equipamentos, gerenciando acessos, configuração e ajustes de
+														perfil.</p>
 
-														<p>Resolução de problemas técnicos em sistemas nativos além da instalação, configuração e manutenção preventiva e corretiva nas estações de trabalho, periféricos e sistemas de infraestrutura.</p>
+														<p>Resolução de problemas técnicos em sistemas nativos além da instalação, configuração e
+															manutenção preventiva e corretiva nas estações de trabalho, periféricos e sistemas de
+														infraestrutura.</p>
 
-														<p>Mapeamento de processos para possíveis melhorias. Abertura e direcionamento de chamados, acompanhamento e report de SLA's por meio do JIRA.</p>
+														<p>Mapeamento de processos para possíveis melhorias. Abertura e direcionamento de chamados,
+														acompanhamento e report de SLA's por meio do JIRA.</p>
 													</div>
 												</div>
 											</div>
@@ -536,512 +541,541 @@
 	<!-- Bloco de fotos - hacks e meetups -->
 	<section class="section summary-section">
 		<h2 class="section-title">
-			<span class="icon-holder"><i class="fas fa-bug"></i></span>Eventos de tecnologia [Realizando ajustes]</h2>
+			<span class="icon-holder"><i class="fas fa-map-marker-alt"></i></span>Eventos e Comunidades de tecnologia</h2>
 			<div class="summary" align="center">
 				<div class="item">
-					
-					<!--Carousel Wrapper-->
-					<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
-						<!--Indicators-->
-						<ol class="carousel-indicators">
-							<li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-							<li data-target="#carousel-example-2" data-slide-to="1"></li>
-							<li data-target="#carousel-example-2" data-slide-to="2"></li>
-						</ol>
-						<!--/.Indicators-->
-						<!--Slides-->
-						<div class="carousel-inner" role="listbox">
-							<div class="carousel-item active">
-								<div class="view">
-									<img class="d-block w-100" src="assets/images/img0.png"
-									alt="First slide">
-									<div class="mask rgba-black-strong"></div>
+					<div class="meta">
+						<div class="upper-row">
+							<h3 class="job-title"></h3>
+							<div class="time"></div>
+						</div>
+						<div class="company"></div>
+					</div>
+					<div class="details" align="justify">
+
+						<div class="class="summary" align="justify">
+							<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+								<ol class="carousel-indicators">
+									<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+									<li data-target="#myCarousel" data-slide-to="1"></li>
+									<li data-target="#myCarousel" data-slide-to="2"></li>
+									<li data-target="#myCarousel" data-slide-to="3"></li>
+									<li data-target="#myCarousel" data-slide-to="4"></li>
+									<li data-target="#myCarousel" data-slide-to="5"></li>
+									<li data-target="#myCarousel" data-slide-to="6"></li>
+								</ol>
+
+								<div class="carousel-inner">
+									<div class="item active">
+										<img src="assets/images/img0.png" class="image-fluid d-block" alt="Los Angeles" style="width:100%">
+										<div class="carousel-caption d-md-block">
+											<h3>Estação Hack!</h3>
+											<p>25º Meetup: F8 2019 em São Paulo – FB DevC SP</p>
+											<p>O F8, a conferência anual para desenvolvedores do Facebook que aconteceu diretamente de San Jose, na Califórnia.</p>
+										</div>
+									</div>
+
+									<div class="item">
+										<img src="assets/images/img2.png" class="image-fluid d-block" alt="New York" style="width: 100%">
+										<div class="carousel-caption d-md-block">
+											<h3>BTPCode - Hackathon Dos Portos</h3>
+											<p>Equipe #PortSolutions Apresentando o Pitch do Projeto Desenvolvido para a #BTPCode. </p>
+											<p></p>
+										</div>
+									</div>
+
+									<div class="item">
+										<img src="assets/images/img3.png" class="image-fluid d-block" alt="New York" style="width: 100%">
+										<div class="carousel-caption d-md-block">
+											<h3>PortSolutions</h3>
+											<p>Momento de Peparação Para o Inicio da Apresentação do Pitch.</p>
+										</div>
+									</div>
+
+									<div class="item">
+										<img src="assets/images/img4.png" class="image-fluid d-block" alt="New York" style="width: 100%">
+										<div class="carousel-caption d-md-block">
+											<h3></h3>
+											<p>Momento do Check-in ao BTPCode em Santos-SP!</p>
+										</div>
+									</div>
+
+									<div class="item">
+										<img src="assets/images/img5.png" class="image-fluid d-block" alt="New York" style="width: 100%">
+										<div class="carousel-caption d-md-block">
+											<h3>BTPCode - Hackathon Dos Portos</h3>
+											<p>Registro com todos os participantes!</p>
+											<p></p>
+										</div>
+									</div>
+
+									<div class="item">
+										<img src="assets/images/img6.png" class="image-fluid d-block" alt="New York" style="width: 100%">
+										<div class="carousel-caption d-md-block">
+											<h3>BTPCode - Hackathon Dos Portos</h3>
+											<p></p>
+										</div>
+									</div>
 								</div>
-								<div class="carousel-caption">
-									<h3 class="h3-responsive">Estação Hack!</h3>
-									<p>First text</p>
-								</div>
-							</div>
-							<div class="carousel-item">
-								<!--Mask color-->
-								<div class="view">
-									<img class="d-block w-100" src="assets/images/img1.png"
-									alt="Second slide">
-									<div class="mask rgba-black-light"></div>
-								</div>
-								<div class="carousel-caption">
-									<h3 class="h3-responsive">Strong mask</h3>
-									<p>Secondary text</p>
-								</div>
-							</div>
-							<div class="carousel-item">
-								<!--Mask color-->
-								<div class="view">
-									<img class="d-block w-100" src="assets/images/img2.png"
-									alt="Third slide">
-									<div class="mask rgba-black-light"></div>
-								</div>
-								<div class="carousel-caption">
-									<h3 class="h3-responsive">Slight mask</h3>
-									<p>Third text</p>
-								</div>
+
+								<!-- Left and right controls -->
+								<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left"></span>
+									<span class="sr-only">Anterior</span>
+								</a>
+								<a class="right carousel-control" href="#myCarousel" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right"></span>
+									<span class="sr-only">Próximo</span>
+								</a>
 							</div>
 						</div>
+					</div>
+				</div>
+			</div>
 
-						
-						<!--/.Slides-->
-						<!--Controls-->
-						<a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</a>
-						<a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="sr-only">Próximo</span>
-						</a>
-						<!--/.Controls-->
+		</section>
+		<!-- fim do bloco de eventos -->
+
+		<!-- Inicio do bloco de Trabalhos Voluntários -->
+		<section class="section summary-section">
+			<h2 class="section-title">
+				<span class="icon-holder"><i class="fas fa-hands-helping"></i></span>trabalho Voluntário</h2>
+				<div class="summary" align="justify">
+					<div class="item">
+						<div class="meta">
+							<div class="upper-row">
+								<h3 class="job-title">FECAP - Fundação Escola de Comércio Álvares Penteado</h3>
+								<div class="time"></div>
+							</div>
+							<div class="company">Mentor de Tecnologia</div>
+						</div>
+						<div class="details" align="justify">
+							<p>Trabalho voluntário como mentor em projetos de desenvolvimento social e tecnológico.
+								Auxilio aos envolvidos com objetivo de promover a criatividade sobre soluções,
+								identificar,
+								organizar idéias, estruturar problemas e definir objetivos para construção de escopo de
+								projeto e
+								desenvolvimento.
+							</p>
+						</div>
 					</div>
 				</div>
 			</section>
-			<!-- fim do bloco de eventos -->
+			<!-- Fim do bloco de Trabalhos Voluntários -->
 
-			<!-- Inicio do bloco de Trabalhos Voluntários -->
+			<!-- Inicío  do bloco de cursos -->
 			<section class="section summary-section">
 				<h2 class="section-title">
-					<span class="icon-holder"><i class="fas fa-hands-helping"></i></span>trabalho Voluntário</h2>
+					<span class="icon-holder"><i class="fas fa-code"></i></span>Cursos Técnicos em TI</h2>
 					<div class="summary" align="justify">
 						<div class="item">
 							<div class="meta">
 								<div class="upper-row">
-									<h3 class="job-title">FECAP - Fundação Escola de Comércio Álvares Penteado</h3>
-									<div class="time"></div>
+									<h3 class="job-title">Configuração de Ambiente em Java</h3>
+									<div class="time">04/2019</div>
 								</div>
-								<div class="company">Mentor de Tecnologia</div>
-							</div>
-							<div class="details" align="justify">
-								<p>Trabalho voluntário como mentor em projetos de desenvolvimento social e tecnológico. 
-									Auxilio aos envolvidos com objetivo de promover a criatividade sobre soluções, identificar,
-									organizar idéias, estruturar problemas e definir objetivos para construção de escopo de projeto e 
-									desenvolvimento.
-								</p>
+								<div class="company">JDev Treinamentos</div>
 							</div>
 						</div>
-					</div>
-				</section>
-				<!-- Fim do bloco de Trabalhos Voluntários -->
 
-				<!-- Inicío  do bloco de cursos -->
-				<section class="section summary-section">
-					<h2 class="section-title">
-						<span class="icon-holder"><i class="fas fa-code"></i></span>Cursos Técnicos em TI</h2>
+						<div class="item">
+							<div class="meta">
+								<div class="upper-row">
+									<h3 class="job-title">SQL com JDBC e Java</h3>
+									<div class="time">04/2019</div>
+								</div>
+								<div class="company">JDev Treinamentos</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="meta">
+								<div class="upper-row">
+									<h3 class="job-title">Marketing Pessoal</h3>
+									<div class="time">08/2017</div>
+								</div>
+								<div class="company">AFPESP</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="meta">
+								<div class="upper-row">
+									<h3 class="job-title">Tecnologia da Informação e
+									Comunicação</h3>
+									<div class="time">07/2017</div>
+								</div>
+								<div class="company">Senai São Paulo</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="meta">
+								<div class="upper-row">
+									<h3 class="job-title">Office 365 Web Content Management /
+									SharePoint</h3>
+									<div class="time">06/2017</div>
+								</div>
+								<div class="company">Cybrary</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="meta">
+								<div class="upper-row">
+									<h3 class="job-title">Servidores GNU/Linux - Debian 7</h3>
+									<div class="time">06/2017</div>
+								</div>
+								<div class="company">We Love Teach</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="meta">
+								<div class="upper-row">
+									<h3 class="job-title">Redes de Computadores</h3>
+									<div class="time">06/2017</div>
+								</div>
+								<div class="company">DlteC</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="meta">
+								<div class="upper-row">
+									<h3 class="job-title">Fundamentos da Gestão de TI</h3>
+									<div class="time">04/2017</div>
+								</div>
+								<div class="company">FGV - Fundação Getulio Vargas</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="meta">
+								<div class="upper-row">
+									<h3 class="job-title">Gerenciamento do Escopo de Projetos</h3>
+									<div class="time">04/2017</div>
+								</div>
+								<div class="company">FGV - Fundação Getulio Vargas</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="meta">
+								<div class="upper-row">
+									<h3 class="job-title">Criptografia</h3>
+									<div class="time">04/2017</div>
+								</div>
+								<div class="company">Cybrary</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="meta">
+								<div class="upper-row">
+									<h3 class="job-title">GNU/Linux Ubuntu Desktop Básico</h3>
+									<div class="time">04/2017</div>
+								</div>
+								<div class="company">GoLearny</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="meta">
+								<div class="upper-row">
+									<h3 class="job-title">Segurança da Informação</h3>
+									<div class="time">03/2017</div>
+								</div>
+								<div class="company">Fundação Bradesco</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="meta">
+								<div class="upper-row">
+									<h3 class="job-title">Ethical Hacking Essentials
+									Certificate</h3>
+									<div class="time">02/2017</div>
+								</div>
+								<div class="company">ITCERTS</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="meta">
+								<div class="upper-row">
+									<h3 class="job-title">CSIRT Foundation Certificate</h3>
+									<div class="time">02/2017</div>
+								</div>
+								<div class="company">ITCERTS</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="meta">
+								<div class="upper-row">
+									<h3 class="job-title">Dynamics CRM 2015</h3>
+									<div class="time">01/2016</div>
+								</div>
+								<div class="company">L3 CRM</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="meta">
+								<div class="upper-row">
+									<h3 class="job-title">Montagem e Manutenção de Computadores</h3>
+									<div class="time">10/2014</div>
+								</div>
+								<div class="company">S.O.S Educação profissional</div>
+							</div>
+						</div>
+					</section>
+					<!-- Fim do bloco de cursos -->
+
+					<!-- Inicio do bloco de palestras -->
+					<section class="section summary-section">
+						<h2 class="section-title">
+							<span class="icon-holder"><i class="fas fa-certificate"></i></span>Participações
+							em palestras
+						</h2>
 						<div class="summary" align="justify">
 							<div class="item">
 								<div class="meta">
 									<div class="upper-row">
-										<h3 class="job-title">Configuração de Ambiente em Java</h3>
-										<div class="time">04/2019</div>
+										<h3 class="job-title">Erros que você não pode cometer ao
+										montar sua Startup</h3>
+										<div class="time"></div>
 									</div>
-									<div class="company">JDev Treinamentos</div>
+									<div class="company">Faculdade BandTec</div>
 								</div>
 							</div>
 
 							<div class="item">
 								<div class="meta">
 									<div class="upper-row">
-										<h3 class="job-title">SQL com JDBC e Java</h3>
-										<div class="time">04/2019</div>
+										<h3 class="job-title">Programando em Cobol - Mercado e
+										Oportunidades</h3>
+										<div class="time"></div>
 									</div>
-									<div class="company">JDev Treinamentos</div>
+									<div class="company">Faculdade BandTec</div>
 								</div>
 							</div>
 
 							<div class="item">
 								<div class="meta">
 									<div class="upper-row">
-										<h3 class="job-title">Marketing Pessoal</h3>
-										<div class="time">08/2017</div>
+										<h3 class="job-title">Conheça como a Microsoft esta
+										inovando o mundo</h3>
+										<div class="time"></div>
 									</div>
-									<div class="company">AFPESP</div>
+									<div class="company">Faculdade BandTec</div>
 								</div>
 							</div>
 
 							<div class="item">
 								<div class="meta">
 									<div class="upper-row">
-										<h3 class="job-title">Tecnologia da Informação e
-										Comunicação</h3>
-										<div class="time">07/2017</div>
+										<h3 class="job-title">Carreira na área de segurança da
+										informação</h3>
+										<div class="time"></div>
 									</div>
-									<div class="company">Senai São Paulo</div>
+									<div class="company">Faculdade BandTec</div>
 								</div>
 							</div>
 
 							<div class="item">
 								<div class="meta">
 									<div class="upper-row">
-										<h3 class="job-title">Office 365 Web Content Management /
-										SharePoint</h3>
-										<div class="time">06/2017</div>
+										<h3 class="job-title">Programa de Carreira em Segurança</h3>
+										<div class="time"></div>
 									</div>
-									<div class="company">Cybrary</div>
+									<div class="company">Faculdade BandTec</div>
 								</div>
 							</div>
 
 							<div class="item">
 								<div class="meta">
 									<div class="upper-row">
-										<h3 class="job-title">Servidores GNU/Linux - Debian 7</h3>
-										<div class="time">06/2017</div>
+										<h3 class="job-title">O Perfil do Empreendedor e Cases</h3>
+										<div class="time"></div>
 									</div>
-									<div class="company">We Love Teach</div>
+									<div class="company">Faculdade BandTec</div>
 								</div>
 							</div>
 
 							<div class="item">
 								<div class="meta">
 									<div class="upper-row">
-										<h3 class="job-title">Redes de Computadores</h3>
-										<div class="time">06/2017</div>
+										<h3 class="job-title">Um mundo melhor conectado</h3>
+										<div class="time"></div>
 									</div>
-									<div class="company">DlteC</div>
+									<div class="company">Faculdade BandTec</div>
 								</div>
 							</div>
 
 							<div class="item">
 								<div class="meta">
 									<div class="upper-row">
-										<h3 class="job-title">Fundamentos da Gestão de TI</h3>
-										<div class="time">04/2017</div>
+										<h3 class="job-title">Green It na Prática</h3>
+										<div class="time"></div>
 									</div>
-									<div class="company">FGV - Fundação Getulio Vargas</div>
+									<div class="company">Faculdade BandTec</div>
 								</div>
 							</div>
-
-							<div class="item">
-								<div class="meta">
-									<div class="upper-row">
-										<h3 class="job-title">Gerenciamento do Escopo de Projetos</h3>
-										<div class="time">04/2017</div>
-									</div>
-									<div class="company">FGV - Fundação Getulio Vargas</div>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="meta">
-									<div class="upper-row">
-										<h3 class="job-title">Criptografia</h3>
-										<div class="time">04/2017</div>
-									</div>
-									<div class="company">Cybrary</div>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="meta">
-									<div class="upper-row">
-										<h3 class="job-title">GNU/Linux Ubuntu Desktop Básico</h3>
-										<div class="time">04/2017</div>
-									</div>
-									<div class="company">GoLearny</div>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="meta">
-									<div class="upper-row">
-										<h3 class="job-title">Segurança da Informação</h3>
-										<div class="time">03/2017</div>
-									</div>
-									<div class="company">Fundação Bradesco</div>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="meta">
-									<div class="upper-row">
-										<h3 class="job-title">Ethical Hacking Essentials
-										Certificate</h3>
-										<div class="time">02/2017</div>
-									</div>
-									<div class="company">ITCERTS</div>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="meta">
-									<div class="upper-row">
-										<h3 class="job-title">CSIRT Foundation Certificate</h3>
-										<div class="time">02/2017</div>
-									</div>
-									<div class="company">ITCERTS</div>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="meta">
-									<div class="upper-row">
-										<h3 class="job-title">Dynamics CRM 2015</h3>
-										<div class="time">01/2016</div>
-									</div>
-									<div class="company">L3 CRM</div>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="meta">
-									<div class="upper-row">
-										<h3 class="job-title">Montagem e Manutenção de Computadores</h3>
-										<div class="time">10/2014</div>
-									</div>
-									<div class="company">S.O.S Educação profissional</div>
-								</div>
-							</div>
-						</section>
-						<!-- Fim do bloco de cursos -->
-
-						<!-- Inicio do bloco de palestras -->
-						<section class="section summary-section">
-							<h2 class="section-title">
-								<span class="icon-holder"><i class="fas fa-certificate"></i></span>Participações
-								em palestras
-							</h2>
-							<div class="summary" align="justify">
-								<div class="item">
-									<div class="meta">
-										<div class="upper-row">
-											<h3 class="job-title">Erros que você não pode cometer ao
-											montar sua Startup</h3>
-											<div class="time"></div>
-										</div>
-										<div class="company">Faculdade BandTec</div>
-									</div>
-								</div>
-
-								<div class="item">
-									<div class="meta">
-										<div class="upper-row">
-											<h3 class="job-title">Programando em Cobol - Mercado e
-											Oportunidades</h3>
-											<div class="time"></div>
-										</div>
-										<div class="company">Faculdade BandTec</div>
-									</div>
-								</div>
-
-								<div class="item">
-									<div class="meta">
-										<div class="upper-row">
-											<h3 class="job-title">Conheça como a Microsoft esta
-											inovando o mundo</h3>
-											<div class="time"></div>
-										</div>
-										<div class="company">Faculdade BandTec</div>
-									</div>
-								</div>
-
-								<div class="item">
-									<div class="meta">
-										<div class="upper-row">
-											<h3 class="job-title">Carreira na área de segurança da
-											informação</h3>
-											<div class="time"></div>
-										</div>
-										<div class="company">Faculdade BandTec</div>
-									</div>
-								</div>
-
-								<div class="item">
-									<div class="meta">
-										<div class="upper-row">
-											<h3 class="job-title">Programa de Carreira em Segurança</h3>
-											<div class="time"></div>
-										</div>
-										<div class="company">Faculdade BandTec</div>
-									</div>
-								</div>
-
-								<div class="item">
-									<div class="meta">
-										<div class="upper-row">
-											<h3 class="job-title">O Perfil do Empreendedor e Cases</h3>
-											<div class="time"></div>
-										</div>
-										<div class="company">Faculdade BandTec</div>
-									</div>
-								</div>
-
-								<div class="item">
-									<div class="meta">
-										<div class="upper-row">
-											<h3 class="job-title">Um mundo melhor conectado</h3>
-											<div class="time"></div>
-										</div>
-										<div class="company">Faculdade BandTec</div>
-									</div>
-								</div>
-
-								<div class="item">
-									<div class="meta">
-										<div class="upper-row">
-											<h3 class="job-title">Green It na Prática</h3>
-											<div class="time"></div>
-										</div>
-										<div class="company">Faculdade BandTec</div>
-									</div>
-								</div>
-							</div>
-						</section>
-						<!-- Fim do bloco de paltestras-->
-
-						<!-- Inicio do bloco de skills -->
-						<section class="skills-section section">
-							<h2 class="section-title">
-								<span class="icon-holder"><i class="fas fa-award"></i></i></span>Skills
-								&amp; Habilidades
-							</h2>
-							<div class="skillset">
-								<div class="item">
-									<h3 class="level-title">Eclipse IDE</h3>
-									<div class="progress level-bar">
-										<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 40%"
-										aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-								</div>
-
-								<div class="item">
-									<h3 class="level-title">Java EE</h3>
-									<div class="progress level-bar">
-										<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 30%"
-										aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-								</div>
-
-								<div class="item">
-									<h3 class="level-title">PostgreSQL</h3>
-									<div class="progress level-bar">
-										<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 50%"
-										aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-								</div>
-
-								<div class="item">
-									<h3 class="level-title">JavaScript</h3>
-									<div class="progress level-bar">
-										<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 40%"
-										aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-								</div>
-
-								<div class="item">
-									<h3 class="level-title">Jquery</h3>
-									<div class="progress level-bar">
-										<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 25%"
-										aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-								</div>
-
-								<div class="item">
-									<h3 class="level-title">JSP &amp; JSF</h3>
-									<div class="progress level-bar">
-										<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 45%"
-										aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-								</div>
-
-								<div class="item">
-									<h3 class="level-title">JPA - Java Persistence API</h3>
-									<div class="progress level-bar">
-										<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 40%"
-										aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-								</div>
-
-								<div class="item">
-									<h3 class="level-title">Html5 &amp; CSS</h3>
-									<div class="progress level-bar">
-										<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 70%"
-										aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-								</div>
-
-								<div class="item">
-									<h3 class="level-title">Materialize &amp Bootstrap</h3>
-									<div class="progress level-bar">
-										<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 60%"
-										aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-								</div>
-
-								<div class="item">
-									<h3 class="level-title">Git &amp; GitHub</h3>
-									<div class="progress level-bar">
-										<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 65%"
-										aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-								</div>
-
-								<div class="item">
-									<h3 class="level-title">WebServices</h3>
-									<div class="progress level-bar">
-										<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 25%"
-										aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-								</div>
-
-								<div class="item">
-									<h3 class="level-title">Apache Tomcat</h3>
-									<div class="progress level-bar">
-										<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 30%"
-										aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-								</div>
-
-								<div class="item">
-									<h3 class="level-title">Configuração de ambiente Java compondo JRE, JDK e JVM</h3>
-									<div class="progress level-bar">
-										<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 80%"
-										aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-								</div>
-
-								<div class="item">
-									<h3 class="level-title">jUnit e práticas de CRUD com JDBC SQL e Java</h3>
-									<div class="progress level-bar">
-										<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 65%"
-										aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-								</div>
-
-								<div class="item">
-									<h3 class="level-title">iReport</h3>
-									<div class="progress level-bar">
-										<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 20%"
-										aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-								</div>
-
-								<div class="item">
-									<h3 class="level-title">Microsoft​ Excel</h3>
-									<div class="progress level-bar">
-										<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 65%"
-										aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-								</div>
-							</div>
-						</section>
-						<!-- Inicio do bloco de skills -->
-					</div>
-				</div>
-
-				<!-- Inicio do bloco de rodapé -->
-				<footer class="footer">
-					<div class="text-center">
-						<small class="copyright">Copyright ©2019 All rights reserved | This template is made with <i
-							class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying
-							Riley </a> Colorlib and custoamized by Marcos Paulo</small>
 						</div>
-					</footer>
-					<!-- Fim do bloco de rodapé -->
-				</body>
-				</html>
+					</section>
+					<!-- Fim do bloco de paltestras-->
+
+					<!-- Inicio do bloco de skills -->
+					<section class="skills-section section">
+						<h2 class="section-title">
+							<span class="icon-holder"><i class="fas fa-award"></i></i></span>Skills
+							&amp; Habilidades
+						</h2>
+						<div class="skillset">
+							<div class="item">
+								<h3 class="level-title">Eclipse IDE</h3>
+								<div class="progress level-bar">
+									<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 40%"
+									aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+
+							<div class="item">
+								<h3 class="level-title">Java EE</h3>
+								<div class="progress level-bar">
+									<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 30%"
+									aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+
+							<div class="item">
+								<h3 class="level-title">PostgreSQL</h3>
+								<div class="progress level-bar">
+									<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 50%"
+									aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+
+							<div class="item">
+								<h3 class="level-title">JavaScript</h3>
+								<div class="progress level-bar">
+									<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 40%"
+									aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+
+							<div class="item">
+								<h3 class="level-title">Jquery</h3>
+								<div class="progress level-bar">
+									<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 25%"
+									aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+
+							<div class="item">
+								<h3 class="level-title">JSP &amp; JSF</h3>
+								<div class="progress level-bar">
+									<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 45%"
+									aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+
+							<div class="item">
+								<h3 class="level-title">JPA - Java Persistence API</h3>
+								<div class="progress level-bar">
+									<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 40%"
+									aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+
+							<div class="item">
+								<h3 class="level-title">Html5 &amp; CSS</h3>
+								<div class="progress level-bar">
+									<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 70%"
+									aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+
+							<div class="item">
+								<h3 class="level-title">Materialize &amp Bootstrap</h3>
+								<div class="progress level-bar">
+									<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 60%"
+									aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+
+							<div class="item">
+								<h3 class="level-title">Git &amp; GitHub</h3>
+								<div class="progress level-bar">
+									<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 65%"
+									aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+
+							<div class="item">
+								<h3 class="level-title">WebServices</h3>
+								<div class="progress level-bar">
+									<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 25%"
+									aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+
+							<div class="item">
+								<h3 class="level-title">Apache Tomcat</h3>
+								<div class="progress level-bar">
+									<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 30%"
+									aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+
+							<div class="item">
+								<h3 class="level-title">Configuração de ambiente Java compondo JRE, JDK e JVM</h3>
+								<div class="progress level-bar">
+									<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 80%"
+									aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+
+							<div class="item">
+								<h3 class="level-title">jUnit e práticas de CRUD com JDBC SQL e Java</h3>
+								<div class="progress level-bar">
+									<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 65%"
+									aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+
+							<div class="item">
+								<h3 class="level-title">iReport</h3>
+								<div class="progress level-bar">
+									<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 20%"
+									aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+
+							<div class="item">
+								<h3 class="level-title">Microsoft​ Excel</h3>
+								<div class="progress level-bar">
+									<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 65%"
+									aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- Inicio do bloco de skills -->
+				</div>
+			</div>
+
+			<!-- Inicio do bloco de rodapé -->
+			<footer class="footer">
+				<div class="text-center">
+					<small class="copyright">Copyright ©2019 All rights reserved | This template is made with <i
+						class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying
+						Riley </a> Colorlib and custoamized by Marcos Paulo</small>
+					</div>
+				</footer>
+				<!-- Fim do bloco de rodapé -->
+			</body>
+
+			</html>
