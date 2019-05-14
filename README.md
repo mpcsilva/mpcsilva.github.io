@@ -1,4 +1,4 @@
-**** Portfólio profissional ****
+# Portfólio profissional
 
 Projeto criado com objetivo de centralizar o máximo de informações profissionais.
 
