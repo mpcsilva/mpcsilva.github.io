@@ -42,9 +42,9 @@ a {
     -webkit-text-decoration-skip: objects
 }
 
-    a:active, a:hover {
-        outline-width: 0
-    }
+a:active, a:hover {
+    outline-width: 0
+}
 
 abbr[title] {
     border-bottom: none;
@@ -125,14 +125,14 @@ button, html [type=button], [type=reset], [type=submit] {
     -webkit-appearance: button
 }
 
-    button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
-        border-style: none;
-        padding: 0
-    }
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
 
-    button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
-        outline: 1px dotted ButtonText
-    }
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
 
 fieldset {
     border: 1px solid #c0c0c0;
@@ -165,9 +165,9 @@ textarea {
     outline-offset: -2px
 }
 
-    [type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
-        -webkit-appearance: none
-    }
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
 
 ::-webkit-input-placeholder {
     color: inherit;
@@ -257,9 +257,9 @@ a {
     border: 1px solid #ccc
 }
 
-    .b5-bordered tr, .b5-table-all tr {
-        border-bottom: 1px solid #ddd
-    }
+.b5-bordered tr, .b5-table-all tr {
+    border-bottom: 1px solid #ddd
+}
 
 .b5-striped tbody tr:nth-child(even) {
     background-color: #f1f1f1
@@ -288,9 +288,9 @@ a {
     vertical-align: top
 }
 
-    .b5-table th:first-child, .b5-table td:first-child, .b5-table-all th:first-child, .b5-table-all td:first-child {
-        padding-left: 14px
-    }
+.b5-table th:first-child, .b5-table td:first-child, .b5-table-all th:first-child, .b5-table-all td:first-child {
+    padding-left: 14px
+}
 
 .b5-btn, .b5-button {
     border: none;
@@ -306,9 +306,9 @@ a {
     white-space: nowrap
 }
 
-    .b5-btn:hover {
-        box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
-    }
+.b5-btn:hover {
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+}
 
 .b5-btn, .b5-button {
     -webkit-touch-callout: none;
@@ -319,18 +319,18 @@ a {
     user-select: none
 }
 
-    .b5-disabled, .b5-btn:disabled, .b5-button:disabled {
-        cursor: not-allowed;
-        opacity: 0.3
-    }
+.b5-disabled, .b5-btn:disabled, .b5-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.3
+}
 
-        .b5-disabled *, :disabled * {
-            pointer-events: none
-        }
+.b5-disabled *, :disabled * {
+    pointer-events: none
+}
 
-        .b5-btn.b5-disabled:hover, .b5-btn:disabled:hover {
-            box-shadow: none
-        }
+.b5-btn.b5-disabled:hover, .b5-btn:disabled:hover {
+    box-shadow: none
+}
 
 .b5-badge, .b5-tag {
     background-color: #000;
@@ -351,26 +351,26 @@ a {
     margin: 0
 }
 
-    .b5-ul li {
-        padding: 8px 14px;
-        border-bottom: 1px solid #ddd
-    }
+.b5-ul li {
+    padding: 8px 14px;
+    border-bottom: 1px solid #ddd
+}
 
-        .b5-ul li:last-child {
-            border-bottom: none
-        }
+.b5-ul li:last-child {
+    border-bottom: none
+}
 
 .b5-tooltip, .b5-display-container {
     position: relative
 }
 
-    .b5-tooltip .b5-text {
-        display: none
-    }
+.b5-tooltip .b5-text {
+    display: none
+}
 
-    .b5-tooltip:hover .b5-text {
-        display: inline-block
-    }
+.b5-tooltip:hover .b5-text {
+    display: inline-block
+}
 
 .b5-ripple:active {
     opacity: 0.5
@@ -401,19 +401,19 @@ a {
     cursor: pointer
 }
 
-    .b5-dropdown-hover:hover .b5-dropdown-content {
-        display: block
-    }
+.b5-dropdown-hover:hover .b5-dropdown-content {
+    display: block
+}
 
-    .b5-dropdown-hover:first-child, .b5-dropdown-click:hover {
-        background-color: #ccc;
-        color: #000
-    }
+.b5-dropdown-hover:first-child, .b5-dropdown-click:hover {
+    background-color: #ccc;
+    color: #000
+}
 
-        .b5-dropdown-hover:hover > .b5-button:first-child, .b5-dropdown-click:hover > .b5-button:first-child {
-            background-color: #ccc;
-            color: #000
-        }
+.b5-dropdown-hover:hover > .b5-button:first-child, .b5-dropdown-click:hover > .b5-button:first-child {
+    background-color: #ccc;
+    color: #000
+}
 
 .b5-dropdown-content {
     cursor: auto;
@@ -447,15 +447,15 @@ a {
     width: 100%
 }
 
-    .b5-bar-block .b5-dropdown-hover .b5-dropdown-content, .b5-bar-block .b5-dropdown-click .b5-dropdown-content {
-        min-width: 100%
-    }
+.b5-bar-block .b5-dropdown-hover .b5-dropdown-content, .b5-bar-block .b5-dropdown-click .b5-dropdown-content {
+    min-width: 100%
+}
 
-    .b5-bar-block .b5-dropdown-hover .b5-button, .b5-bar-block .b5-dropdown-click .b5-button {
-        width: 100%;
-        text-align: left;
-        padding: 8px 14px
-    }
+.b5-bar-block .b5-dropdown-hover .b5-button, .b5-bar-block .b5-dropdown-click .b5-button {
+    width: 100%;
+    text-align: left;
+    padding: 8px 14px
+}
 
 .b5-main, #main {
     transition: margin-left .4s
@@ -549,53 +549,53 @@ a {
     width: 100%
 }
 
-    .b5-col.s1 {
-        width: 8.33333%
-    }
+.b5-col.s1 {
+    width: 8.33333%
+}
 
-    .b5-col.s2 {
-        width: 16.66666%
-    }
+.b5-col.s2 {
+    width: 16.66666%
+}
 
-    .b5-col.s3 {
-        width: 24.99999%
-    }
+.b5-col.s3 {
+    width: 24.99999%
+}
 
-    .b5-col.s4 {
-        width: 33.33333%
-    }
+.b5-col.s4 {
+    width: 33.33333%
+}
 
-    .b5-col.s5 {
-        width: 41.66666%
-    }
+.b5-col.s5 {
+    width: 41.66666%
+}
 
-    .b5-col.s6 {
-        width: 49.99999%
-    }
+.b5-col.s6 {
+    width: 49.99999%
+}
 
-    .b5-col.s7 {
-        width: 58.33333%
-    }
+.b5-col.s7 {
+    width: 58.33333%
+}
 
-    .b5-col.s8 {
-        width: 66.66666%
-    }
+.b5-col.s8 {
+    width: 66.66666%
+}
 
-    .b5-col.s9 {
-        width: 74.99999%
-    }
+.b5-col.s9 {
+    width: 74.99999%
+}
 
-    .b5-col.s10 {
-        width: 83.33333%
-    }
+.b5-col.s10 {
+    width: 83.33333%
+}
 
-    .b5-col.s11 {
-        width: 91.66666%
-    }
+.b5-col.s11 {
+    width: 91.66666%
+}
 
-    .b5-col.s12 {
-        width: 99.99999%
-    }
+.b5-col.s12 {
+    width: 99.99999%
+}
 
 @media (min-width:601px) {
     .b5-col.m1 {
@@ -785,9 +785,9 @@ a {
         text-align: center
     }
 
-        .b5-dropdown-hover.b5-mobile, .b5-dropdown-hover.b5-mobile .b5-btn, .b5-dropdown-hover.b5-mobile .b5-button, .b5-dropdown-click.b5-mobile, .b5-dropdown-click.b5-mobile .b5-btn, .b5-dropdown-click.b5-mobile .b5-button {
-            width: 100%
-        }
+    .b5-dropdown-hover.b5-mobile, .b5-dropdown-hover.b5-mobile .b5-btn, .b5-dropdown-hover.b5-mobile .b5-button, .b5-dropdown-click.b5-mobile, .b5-dropdown-click.b5-mobile .b5-btn, .b5-dropdown-click.b5-mobile .b5-button {
+        width: 100%
+    }
 }
 
 @media (max-width:768px) {
@@ -1140,9 +1140,9 @@ a {
     transition: width 0.4s ease-in-out
 }
 
-    .b5-animate-input:focus {
-        width: 100% !important
-    }
+.b5-animate-input:focus {
+    width: 100% !important
+}
 
 .b5-opacity, .b5-hover-opacity:hover {
     opacity: 0.60
@@ -1427,11 +1427,11 @@ figure {
 	min-width: 17.5em;
 	margin:0 auto;}
 	
-figcaption { 
- font: 120% 'Roboto' sans-serif;
- text-align: center;
- }
-.boxVideo {
+    figcaption { 
+       font: 120% 'Roboto' sans-serif;
+       text-align: center;
+   }
+   .boxVideo {
     position: relative;
     padding-bottom: 56.25%; 
     padding-top: 25px;
