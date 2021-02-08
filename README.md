@@ -28,7 +28,7 @@
 ### Abstract
 
 - 👨‍💻 I'm currently working full-time at **Engineering do Brasil**.
-- 🌱 Learning more about and studying: **NodeJS, DevOps and Java**.
+- 🌱 Learning more about and studying: **DevOps and Java**.
 - 💙 Interests: games 👾.
 
 ### Languages and Tools
